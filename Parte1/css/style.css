@@ -1,1 +1,31 @@
- 
+ #bdyImg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+.centrar{
+    text-align: center;
+}
+ #cita{
+    font-size: 15px;
+ }
+ span{
+    font-weight: bold;
+ }
+ #imagen{
+    width: 50%;
+ }
+
+ body{
+    background-color: rgba(40, 208, 166, 0.536);
+    font-size: 20px;
+ }
+ footer{
+    margin: 60px;
+    display: flex;
+    justify-content: end;
+ }
+ #container{
+    display: flex;
+    flex-direction: column-reverse;
+ }
